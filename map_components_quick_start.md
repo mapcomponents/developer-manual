@@ -1,6 +1,7 @@
 # MapComponents Quickstart: First Steps with MapComponents
 
 MapComponents is an open source framework for creating Geo-IT applications. 
+
 A catalog of reliable components enables an accurate effort estimation and ensures a faster project launch than developing from scratch. 
 Well-matched components will help you reach your goal faster, and the high level of customizability enables the implementation of the most exotic requirements.
 
