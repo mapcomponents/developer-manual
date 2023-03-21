@@ -10,12 +10,17 @@
 - Layertree
   - Background Layers
   - VectorTile Layers
+  - Image Marker Layer
   - WMS Layers
+  - Three Js Layer: 3D Layer
   - GeoJSON Layers
   - Transition GeoJSON Layer 
+  - Fill Extrusion Layer
 - Feature Info:
 - Navigation Tools
+- Navigation Compass
 - Line/Area Ruler
+- Measure Tool
 - Scale Reference
 - MIShareMapState: Share Current Map State
 - GPS Position
