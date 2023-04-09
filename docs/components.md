@@ -7,7 +7,10 @@
 ### Base Components
 - MapContext: Map Registry
 - MapLibreMap: MapLibre-gl Instance
-- Layertree
+- LayerContext: Layer Registry
+
+### Map Components
+- Layer Components
   - Background Layers
   - VectorTile Layers
   - Image Marker Layer
@@ -30,6 +33,22 @@
 - Scale Selector (noch keine fertige Lösung)
 - Legend (noch keine fertige Lösung)
 - Overview (noch keine fertige Lösung)
+- Layertree
+
+### Hooks
+- useMap
+- useMapContext
+- useLayerContext
+- useLayer
+- useSource
+- useExportMap
+- useWms
+- useLayerEvent
+- useMapState
+- useLayerFilter
+- useLayerHoverPopup
+- useGpx
+- useCameraFolowPath
 
 ### Search 
 - Simple Search (noch keine fertige Lösung)
