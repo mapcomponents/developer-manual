@@ -30,7 +30,7 @@ function Map() {
 The MapLibreMap component takes three props:
 
 - mapId: A string that represents the ID of the MapLibre-gl (wrapper) instance in mapContext.
-- style: A CSS style definition passed to the map container DOM element.
+- style: A CSS style definition passed to the map container HTML element.
 - options: A config object that is passed to the MapLibre-gl constructor as the first parameter.
 
 ## Advanced Usage
