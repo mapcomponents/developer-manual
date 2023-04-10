@@ -9,7 +9,7 @@ In its simplest form, you only need to provide the geojson prop to the MlGeoJson
 Here's an example:
 
 ```jsx
-import { MlGeoJsonLayer } from "maplibre-gl-react";
+import { MlGeoJsonLayer } from "@mapcomponents/react-maplibre";
 
 const geojson = {
   type: "Feature",
