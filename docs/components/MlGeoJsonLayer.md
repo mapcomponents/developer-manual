@@ -146,7 +146,7 @@ This will create a green polygon that fills the area defined by the four coordin
 
 ### Labels
 
-You can add labels to the MlGeoJsonLayer by providing a text-field property in the layout object. This property specifies the text that should be displayed for each feature. Additionally, you can customize the appearance of the labels using other properties in the layout and paint objects.
+You can add labels using the the MlGeoJsonLayer by providing a text-field property in the layout object. This property specifies the text that should be displayed for each feature. Additionally, you can customize the appearance of the labels using other properties in the layout and paint objects.
 
 #### Example: Labels
 
