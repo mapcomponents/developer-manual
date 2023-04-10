@@ -33,11 +33,14 @@ In this example, we're creating a MlGeoJsonLayer component and passing a geojson
 
 ### Circle, Line, and Fill Layer
 
-You can further customize the appearance of the MlGeoJsonLayer by providing a paint object and a layout object to the component's props. These objects are passed to the addLayer method of the MapLibre instance and allow you to adjust the visual properties of the layer, such as color, opacity, line width, and more. You can refer to the MapLibre documentation for a full list of available properties.
+You can further customize the appearance of the MlGeoJsonLayer by providing a options.paint object and a options.layout object to the component's props that adheres to the Mapbox style LayerSpecification. These objects are passed to the addLayer method of the MapLibre instance and allow you to adjust the visual properties of the layer, such as color, opacity, line width, and more. If properies change state during runtime MlGeoJsonLayer component will update the layer in the MapLibre-gl instance accordingly. You can refer to the MapLibre documentation for a full list of available properties.
+
+[MapLibre docs - Mapbox Layer Specification - Layers](https://maplibre.org/maplibre-style/layers/#fill)
+[Mapbox Layer Specification - Layers](https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/)
 
 #### Example: Circle Layer
 
-To create a circle layer, set the type prop to 'circle' and provide the necessary paint properties in the paint prop. Here's an example:
+To create a circle layer, set the type prop to 'circle' and provide the necessary paint properties in the paint prop:
 
 ```jsx
 import { MlGeoJsonLayer } from "@mapcomponents/react-maplibre";
@@ -67,11 +70,11 @@ function Layers() {
 }
 ```
 
-This example will create a blue circle with a radius of 10 pixels at the coordinates [10.0, 50.0]. The radius of the circle is specified in the properties object of the GeoJSON feature.
+This will create a blue circle with a radius of 10 pixels at the coordinates [10.0, 50.0]. The radius of the circle is specified in the properties object of the GeoJSON feature.
 
 #### Example: Line Layer
 
-To create a line layer, set the type prop to 'line' and provide the necessary paint properties in the paint prop. Here's an example:
+To create a line layer, set the type prop to 'line' and provide the necessary paint properties in the paint prop:
 
 ```jsx
 import { MlGeoJsonLayer } from "@mapcomponents/react-maplibre";
@@ -102,11 +105,11 @@ function Layers() {
 }
 ```
 
-This example will create a red line with a width of 2 pixels that connects the three coordinates [10.0, 50.0], [20.0, 60.0], and [30.0, 70.0].
+This will create a red line with a width of 2 pixels that connects the three coordinates [10.0, 50.0], [20.0, 60.0], and [30.0, 70.0].
 
 #### Example: Fill Layer
 
-To create a fill layer, set the type prop to 'fill' and provide the necessary paint properties in the paint prop. Here's an example:
+To create a fill layer, set the type prop to 'fill' and provide the necessary paint properties in the paint prop:
 
 ```jsx
 import { MlGeoJsonLayer } from "@mapcomponents/react-maplibre";
@@ -139,7 +142,7 @@ function Layers() {
 }
 ```
 
-This example will create a green polygon that fills the area defined by the four coordinates [10.0, 50.0], [20.0, 60.0], [30.0, 50.0], and [20.0, 40.0].
+This will create a green polygon that fills the area defined by the four coordinates [10.0, 50.0], [20.0, 60.0], [30.0, 50.0], and [20.0, 40.0].
 
 ### Labels
 
@@ -186,13 +189,18 @@ const Labels = () => {
 };
 ```
 
-In this example, we are rendering a LineString feature with a label on it using the MlGeoJsonLayer component. The type prop is set to 'symbol' to indicate that we want to use a symbol layer to render the label. We pass the lineGeojson object to the geojson prop to specify the data we want to render.
+Here we are rendering a label for a LineString feature using the MlGeoJsonLayer component. The type prop is set to 'symbol' to indicate that we want to use a symbol layer to render the label. We pass the lineGeojson object to the geojson prop to specify the data we want to render.
 
 To add a label to the line, we set the layout prop to an object with the 'symbol-placement' key set to 'line' and the 'text-field' key set to 'name'. This tells MapLibre to place the label along the line and use the name property of each feature as the label text.
 
 ### Default Paint Overrides
 
 You can override the default paint properties of the layer type implied by the type prop using the defaultPaintOverrides prop. This allows you to easily customize the appearance of specific types of layers without having to specify a complete paint object. You can provide an object with the keys circle, fill, and/or line, each containing a set of properties to be used for the respective layer type.
+
+You are able to find all the available properties in the Mapbox style documentation for layers:
+
+[MapLibre docs - Mapbox Layer Specification - Layers](https://maplibre.org/maplibre-style/layers/#fill)
+[Mapbox Layer Specification - Layers](https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/)
 
 ```jsx
 import { useState } from "react";
@@ -248,7 +256,7 @@ function Layers() {
 }
 ```
 
-In this example, we have a basic polygon geometry defined in polygonGeojson. We also define defaultPaintOverrides to specify different default styles for the circle, line, and fill layer types.
+For this example, we have a basic polygon geometry defined in polygonGeojson. We also define defaultPaintOverrides to specify different default styles for the circle, line, and fill layer types. This could be loaded from a separate file or derived from a central colortheme in real-world application.
 
 The App component renders a selected element that allows the user to switch between the three different layer types. The selected layer type is stored in the layerType state variable, and is passed to the MlGeoJsonLayer component as `type` prop.
 
@@ -303,6 +311,8 @@ Here's an example configuration with earthquake data that has a mag property (fo
 />
 ```
 
+In the code above, the heatmap-weight is increased based on the mag property of each earthquake point, and the heatmap-intensity is increased as the zoom level increases. The heatmap-color is set to a blue-to-red color ramp with a transparency gradient to create a blur-like effect. The heatmap-radius is adjusted based on the zoom level and the heatmap-opacity is set to transition from a fully visible heatmap at zoom level 7 to a fully transparent heatmap at zoom level 9.
+
 <iframe
   id="iframe--mapcomponents-mlgeojsonlayer--heat-map-earthquakes"
   title="Heat Map Earthquakes"
@@ -312,14 +322,15 @@ Here's an example configuration with earthquake data that has a mag property (fo
   style={{ width: "100%", height: "500px", border: "0px none" }}
 ></iframe>
 
-In the example above, the heatmap-weight is increased based on the mag property of each earthquake point, and the heatmap-intensity is increased as the zoom level increases. The heatmap-color is set to a blue-to-red color ramp with a transparency gradient to create a blur-like effect. The heatmap-radius is adjusted based on the zoom level and the heatmap-opacity is set to transition from a fully visible heatmap at zoom level 7 to a fully transparent heatmap at zoom level 9.
-
 ## Links
 
 - [MlGeoJsonLayer Documentation](https://mapcomponents.github.io/react-map-components-maplibre/?path=/docs/mapcomponents-mlgeojsonlayer--linestring)
+- [MlGeoJsonLayer Code](https://github.com/mapcomponents/react-map-components-maplibre/blob/main/src/components/MlGeoJsonLayer/MlGeoJsonLayer.tsx)
 - [MapLibre on Github](https://github.com/maplibre/maplibre-gl-js)
 - [MapLibre Docs](https://maplibre.org/maplibre-gl-js-docs/)
 - [Mapbox Layer Specification](https://maplibre.org/maplibre-style/)
+- [MapLibre docs - Mapbox Layer Specification - Layers](https://maplibre.org/maplibre-style/layers/#fill)
+- [Mapbox Layer Specification - Layers](https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/)
 
 ### GeoJSON Resources
 
