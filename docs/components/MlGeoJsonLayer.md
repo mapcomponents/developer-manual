@@ -35,8 +35,8 @@ In this example, we're creating a MlGeoJsonLayer component and passing a geojson
 
 You can further customize the appearance of the MlGeoJsonLayer by providing a options.paint object and a options.layout object to the component's props that adheres to the Mapbox style LayerSpecification. These objects are passed to the addLayer method of the MapLibre instance and allow you to adjust the visual properties of the layer, such as color, opacity, line width, and more. If properies change state during runtime MlGeoJsonLayer component will update the layer in the MapLibre-gl instance accordingly. You can refer to the MapLibre documentation for a full list of available properties.
 
-[MapLibre docs - Mapbox Layer Specification - Layers](https://maplibre.org/maplibre-style/layers/#fill)
-[Mapbox Layer Specification - Layers](https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/)
+- [MapLibre docs - Mapbox Layer Specification - Layers](https://maplibre.org/maplibre-style/layers/#fill)
+- [Mapbox Layer Specification - Layers](https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/)
 
 #### Example: Circle Layer
 
@@ -199,8 +199,8 @@ You can override the default paint properties of the layer type implied by the t
 
 You are able to find all the available properties in the Mapbox style documentation for layers:
 
-[MapLibre docs - Mapbox Layer Specification - Layers](https://maplibre.org/maplibre-style/layers/#fill)
-[Mapbox Layer Specification - Layers](https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/)
+- [MapLibre docs - Mapbox Layer Specification - Layers](https://maplibre.org/maplibre-style/layers/#fill)
+- [Mapbox Layer Specification - Layers](https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/)
 
 ```jsx
 import { useState } from "react";
