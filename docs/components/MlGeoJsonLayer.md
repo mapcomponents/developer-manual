@@ -1,4 +1,4 @@
-# MlGeoJsonLayer
+# GeoJSON Layers - MlGeoJsonLayer
 
 The MlGeoJsonLayer component allows you to display any kind of GeoJSON data on the map using circle, fill, line, heatmap, symbol, or fill-extrusion layer types. It creates a source (if needed), a layer and adds it to the MapLibre-gl instance with the id given in the mapId prop.
 
