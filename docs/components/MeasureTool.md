@@ -1,5 +1,7 @@
 # Measure Tool
 
+Using the Measure Tool you are able to calculate a distance or an area. 
+
 ## Basic Usage
 
 

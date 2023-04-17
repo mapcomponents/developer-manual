@@ -1,4 +1,6 @@
-# Fill Extrusion Layer
+# Simple 3D Buildings
+
+Draws a level, out of the building outline and the height, extrudes 3D Objects as buildings.
 
 ## Basic Usage
 

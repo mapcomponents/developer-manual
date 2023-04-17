@@ -1,5 +1,7 @@
 # GPS Position
 
+Using the GPS Position Component a localization feature is implemented. 
+
 ## Basic Usage
 
 
