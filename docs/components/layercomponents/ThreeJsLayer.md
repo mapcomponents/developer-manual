@@ -1,6 +1,6 @@
 # Three Js Layer
 
-
+The Three Js Layer makes it possible to show 3D Models on the map.
 
 ## Basic Usage
 
