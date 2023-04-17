@@ -1,6 +1,6 @@
 # Navigation Tool
 
-The Navigation Tool adds new features to the navigation bar like a settings button, a compass and zooming.
+The Navigation Tool adds new features to the navigation bar like a settings button, a compass, zooming and much more.
 
 ## Basic Usage
 
