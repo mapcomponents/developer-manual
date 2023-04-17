@@ -1,5 +1,7 @@
 # Scale Reference
 
+This Component adds a scale either as an overlay or toolbar. 
+
 ## Basic Usage
 
 
