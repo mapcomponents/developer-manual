@@ -1,5 +1,7 @@
 # Vector Tile Layers
 
+This Vector Tile Layer uses a URL (where the tiles are hosted) and a list of layers to load and returns a layer with images.
+
 ## Basic Usage
 
 
