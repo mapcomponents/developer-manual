@@ -1,6 +1,9 @@
 # Image Marker Layer
 
+This componernt creates a layer of type "symbol" where the geometries are represented by an image rather than a point.
 
+This would be the typical case of a cutlery icon representing the location of restaurants on the map.
+In the catalog example, the location of the WhereGroup headquarters is represented by the company logo.
 
 ## Basic Usage
 
