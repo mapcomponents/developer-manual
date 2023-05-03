@@ -1,6 +1,7 @@
 # Line Area Ruler
 
 MlMeasureTool provides the user with a tool to perform measurements on the map. 
+
 It has two variants (defined by the "measureType" parameter):  
 
 - line: allows measuring distances on a straight line. 
