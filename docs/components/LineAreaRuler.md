@@ -15,7 +15,7 @@ It has two variants (defined by the "measureType" parameter):
 <iframe
   id="iframe--core-maplibremap--style-change-config"
   title="Style Change Config"
-  src="https://mapcomponents.github.io/react-map-components-maplibre/iframe.html?viewMode=story&amp;id=uicomponents-layerlist--vectortile-example"
+  src="https://mapcomponents.github.io/react-map-components-maplibre/iframe.html?viewMode=story&amp;id=mapcomponents-mlmeasuretool--measure-line"
   allowfullscreen=""
   loading="lazy"
   style={{ width: "100%", height: "500px", border: "0px none" }}
