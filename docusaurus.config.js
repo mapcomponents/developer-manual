@@ -9,7 +9,8 @@ const config = {
   title: 'MapComponents developer handbook',
   tagline: '',
   favicon: 'img/logo.svg',
-
+  staticDirectories:['static'],
+  
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
   // Set the /<baseUrl>/ pathname under which your site is served
