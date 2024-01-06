@@ -39,7 +39,7 @@ yarn dev
 
 Open http://localhost:5173 in your browser to run the current code state with hot-reloading.
 
-<img src="assets/0_start_project_5.gif" width="500" />
+<img src="assets/0_start_project_6.gif" width="500" />
 
 <!--@abc: spawn({"command":"yarn dev"}) -->
 <!--@abc: browse({"url":"http://localhost:5173"}) -->
