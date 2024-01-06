@@ -8,13 +8,11 @@ A catalog of reliable components enables an accurate effort estimation and ensur
 Well-matched components will help you reach your goal faster, and the high level of customizability enables the implementation of the most exotic requirements.
 Due to the clear focus on current technologies such as Vector Tiles, MapLibre, React and Docker the implemented MapComponents applications are sustainable and future-proof.
 
-The main advantages summarized:
+## The main advantages summarized:
 
 - Highly customizable and configurable
 - Independent use of all components
 - Highly integrable into existing systems
-- Technically the most modern way of using geodata
-- Developed by experts with decades of WebGIS experience
 
 
 ## Anatomy of a MapComponent

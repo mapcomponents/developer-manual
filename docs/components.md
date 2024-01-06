@@ -1,9 +1,7 @@
 ---
 sidebar_position: 3
 ---
-
-
-# Functions 
+# Components 
 
 ### Setup
 - New Project

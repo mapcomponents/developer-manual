@@ -18,3 +18,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+static/docs/**/*.md
+static/docs/**/*.cast
+static/docs/**/*.mp4
+docs/**/*.cast
+docs/**/*.mp4
+docs/**/*.gif
