@@ -5,7 +5,7 @@ It provides GPS tracking functionality, allowing a map to follow the user's curr
 
 Visit the storybook for a [complete list of properties & documentation](https://mapcomponents.github.io/react-map-components-maplibre/?path=/docs/mapcomponents-mlfollowgps--standard-config).
 
-## Functionalities
+### Functionality
 
 - **GPS Position Tracking:** The component tracks the user's GPS position using the `navigator.geolocation.watchPosition` method. 
 

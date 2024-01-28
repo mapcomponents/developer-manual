@@ -1,4 +1,4 @@
-# Vector Tile Layers
+# Vector Tile Layer - MlVectorTileLayer
 
 The `MlVectorTileLayer` component dynamically adds vector tile layers to a MapLibre instance. This component is useful for adding custom vector tile layers into maps, offering flexibility in terms of layer management and styling.
 
