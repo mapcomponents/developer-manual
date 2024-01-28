@@ -4,7 +4,7 @@ The MlWmsLoader component serves as a Web Map Service (WMS) loader in a React ap
 
 Visit the storybook for a [complete list of properties & documentation](https://mapcomponents.github.io/react-map-components-maplibre/?path=/docs/mapcomponents-mlwmsloader--example-config).
 
-## Key Functionalities:
+### Functionality:
 
 - **WMS Capabilities Loading:** It loads WMS capabilities from a URL provided as `url` property. This includes parsing the getCapabilities XML document from the WMS server and handling any potential errors in this process.
 

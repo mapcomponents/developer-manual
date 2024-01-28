@@ -4,7 +4,7 @@ The `MlMeasureTool` facilitates the measurement of either area or length on a ma
 
 Visit the storybook for a [complete list of properties & documentation](https://mapcomponents.github.io/react-map-components-maplibre/?path=/docs/mapcomponents-mlmeasuretool--measure-line).
 
-# Functionality:
+### Functionality:
 
 - **Measurement Types:** The component can measure either areas (polygons) or lengths (lines), determined by the `measureType` prop.
 
