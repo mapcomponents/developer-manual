@@ -5,6 +5,7 @@ sidebar_position: 2
 
 <!--@abc: config({ "asciinema": { "speed": 1, "cols": 60, "rows": 10 } }) -->
 
+MapComponents is based on React and Maplibre. To make the process of starting a new application easier we have created an application template based on the react typescript vite template. This will help with the basic project configuration that will fit most requirements. It will be possible to use Javascript or Typescript depending on the scripts file ending (.jsx or .tsx).
 
 First bootstrap the react app using the MapComponent template. The template is based on vite which is (at the time of writing this document) considered a best practice to initialize a new react project.
 
