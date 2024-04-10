@@ -23,11 +23,11 @@ const BulletList = [
         text: "Introduction",
       },
       {
-        href: "https://example.com/getting-started",
+        href: "/docs/Getting_Started/Installation_&_Setup",
         text: "Installation & Setup",
       },
       {
-        href: "https://example.com/configuration",
+        href: "/docs/Getting_Started/Quick_Start_Guide",
         text: "Quick Start Guide",
       },
     ],
@@ -36,45 +36,58 @@ const BulletList = [
     title: "Components",
     icon: <GridViewIcon />,
     links: [
-      { href: "https://example.com/focus", text: "Basic Components" },
-      { href: "https://example.com/components", text: "Layer Components" },
-      { href: "https://example.com/components", text: "UI-Components" },
-      { href: "https://example.com/components", text: "Hooks" },
-      { href: "https://example.com/components", text: "Contexts" },
+      { href: "/docs/Components/Basic_Components", text: "Basic Components" },
+      { href: "/docs/Components/Layer_Components", text: "Layer Components" },
+      { href: "/docs/Components/UI-Components", text: "UI-Components" },
+      { href: "/docs/Components/Hooks", text: "Hooks" },
+      { href: "/docs/Components/Contexts", text: "Contexts" },
     ],
   },
   {
     title: "Advanced Topics",
     icon: <SettingsApplicationsIcon />,
     links: [
-      { href: "https://reactjs.org", text: "Configuration" },
-      { href: "https://reactjs.org", text: "Architecture" },
+      { href: "/docs/Advanced_Topics/Configuration", text: "Configuration" },
+      { href: "/docs/Advanced_Topics/Architecture", text: "Architecture" },
+      {
+        href: "/docs/Advanced_Topics/Data_Integration",
+        text: "Data Integration",
+      },
     ],
   },
   {
     title: "Examples",
     icon: <MapIcon />,
-    links: [{ href: "https://reactjs.org", text: "Progressive Web App" }],
+    links: [
+      {
+        href: "/docs/Examples/Progressive_Web_App",
+        text: "Progressive Web App",
+      },
+    ],
   },
   {
     title: "FAQ",
     icon: <QuizIcon />,
-    links: [{ href: "https://reactjs.org", text: "Common questions" }],
+    links: [{ href: "/docs/FAQ/Common_questions", text: "Common questions" }],
   },
   {
     title: "Contributing",
     icon: <GitHubIcon />,
-    links: [{ href: "https://reactjs.org", text: "Contributing" }],
+    links: [{ href: "/docs/Contributing/", text: "Contributing" }],
   },
   {
-    title: "Changelog and Updates",
+    title: "Changelog & Updates",
     icon: <LibraryBooksIcon />,
-    links: [{ href: "https://reactjs.org", text: "Changelog and Updates" }],
+    links: [
+      { href: "/docs/Changelog_&_Updates/", text: "Changelog & Updates" },
+    ],
   },
   {
-    title: "Support and Community",
+    title: "Support & Community",
     icon: <PeopleIcon />,
-    links: [{ href: "https://reactjs.org", text: "Support and Community" }],
+    links: [
+      { href: "/docs/Support_&_Community/", text: "Support & Community" },
+    ],
   },
   // {
   //   title: "In Progress",
