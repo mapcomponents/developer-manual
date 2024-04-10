@@ -1,18 +1,22 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
-# Components 
+
+# Components
 
 ### Setup
+
 - New Project
 - Existing Project
 
 ### Base Components
+
 - MapContext: Map Registry
 - MapLibreMap: MapLibre-gl Instance
 - LayerContext: Layer Registry
 
 ### Map Components
+
 - Layer Components
   - Background Layers
   - VectorTile Layers
@@ -20,7 +24,7 @@ sidebar_position: 3
   - WMS Layers
   - Three Js Layer: 3D Layer
   - GeoJSON Layers
-  - Transition GeoJSON Layer 
+  - Transition GeoJSON Layer
   - Fill Extrusion Layer
 - Feature Info:
 - Navigation Tools
@@ -39,6 +43,7 @@ sidebar_position: 3
 - Layertree
 
 ### Hooks
+
 - useMap
 - useMapContext
 - useLayerContext
@@ -53,13 +58,15 @@ sidebar_position: 3
 - useGpx
 - useCameraFolowPath
 
-### Search 
+### Search
+
 - Simple Search (noch keine fertige Lösung)
 
 ### Export/Print
+
 - MICreatePNGButton: PNG Button
 - MICreatePDFButton: PDF Button
-- MICreatePDFForm: PDF Form 
+- MICreatePDFForm: PDF Form
 - MISketchTools: GeoJSON Feature Editor (UI)
 - MIFeature Editor: GeoJSON Feature Editor
 - React Admin Integration
