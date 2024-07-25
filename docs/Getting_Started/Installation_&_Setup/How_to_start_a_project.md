@@ -2,15 +2,13 @@
 sidebar_position: 0
 ---
 
-# How to start a project
+# How to start a new MC project
 
 <!--@abc: config({ "asciinema": { "speed": 1, "cols": 60, "rows": 10 } }) -->
 
-## Start a new MapComponents app
+### 1. Initialize a new react project via template
 
 First bootstrap the react app using the MapComponent template. The template is based on vite which is (at the time of writing this document) considered a best practice to initialize a new react project.
-
-<!--@abc: exec() -->
 
 ```bash
 npx degit mapcomponents/template my-mc-app
@@ -18,9 +16,9 @@ npx degit mapcomponents/template my-mc-app
 
 <img src="/img/start_new_project_1.gif" width="500" />
 
-Change into the app directory and install the dependencies using yarn
+### 2. Install the dependencies via yarn
 
-<!--@abc: exec() -->
+Change into the app directory and install the dependencies using yarn
 
 ```bash
 cd my-mc-app
@@ -29,9 +27,9 @@ yarn
 
 <img src="/img/start_new_project_2.gif" width="500" />
 
-Start the development server that will by default serve the app on localhost:5173 and watch the filesystem for changes to compile and hot-reload the browser tab that is running the app.
+### 3. Start developing
 
-<!--@abc: exec() -->
+Start the development server that will by default serve the app on localhost:5173 and watch the filesystem for changes to compile and hot-reload the browser tab that is running the app.
 
 ```bash
 cd my-mc-app

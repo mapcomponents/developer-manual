@@ -9,9 +9,9 @@ This componernt creates a layer of type "symbol" where the geometries are repres
 This would be the typical case of a cutlery icon representing the location of restaurants on the map.
 In the catalog example, the location of the WhereGroup headquarters is represented by the company logo.
 
-## Basic Usage
+### Basic Usage
 
-## Advanced Usage
+### Advanced Usage
 
 <iframe
   id="iframe--core-maplibremap--style-change-config"
@@ -22,4 +22,4 @@ In the catalog example, the location of the WhereGroup headquarters is represent
   style={{ width: "100%", height: "500px", border: "0px none" }}
 ></iframe>
 
-## Links
+### Links

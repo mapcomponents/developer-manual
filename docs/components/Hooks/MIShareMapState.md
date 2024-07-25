@@ -1,9 +1,8 @@
 # MIShareMapState
 
-## Basic Usage
+### Basic Usage
 
-
-## Advanced Usage
+### Advanced Usage
 
 <iframe
   id="iframe--core-maplibremap--style-change-config"
@@ -14,4 +13,4 @@
   style={{ width: "100%", height: "500px", border: "0px none" }}
 ></iframe>
 
-## Links
+### Links

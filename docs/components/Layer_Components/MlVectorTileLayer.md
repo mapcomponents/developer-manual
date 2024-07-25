@@ -16,7 +16,7 @@ The `MlVectorTileLayer` component dynamically adds vector tile layers to a MapLi
 
 Visit the storybook for a [complete list of properties & documentation](https://mapcomponents.github.io/react-map-components-maplibre/?path=/docs/mapcomponents-mlvectortilelayer--example-config).
 
-## Basic Usage
+### Basic Usage
 
 ```jsx
 <MlVectorTileLayer
@@ -56,7 +56,7 @@ Visit the storybook for a [complete list of properties & documentation](https://
   style={{ width: "100%", height: "500px", border: "0px none" }}
 ></iframe>
 
-## Links
+### Links
 
 - storybook: https://mapcomponents.github.io/react-map-components-maplibre/?path=/docs/mapcomponents-mlvectortilelayer--example-config
 - Vector Tiles: https://docs.mapbox.com/vector-tiles/reference/

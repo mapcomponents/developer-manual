@@ -20,7 +20,7 @@ sidebar_position: 1
 1. **Import TopToolbar-Component:** `import {TopToolbar} from "@mapcomponents/react-maplibre"` in `src/App.tsx`.
 
 2. **Add TopToolbar to the JSX**:
-   We use Material UI - a popular React UI framework - in our project.
+   We use Material UI  https://mui.com/material-ui/getting-started/ - a popular React UI framework - in our project.
 
    ```javascript
    <TopToolbar
