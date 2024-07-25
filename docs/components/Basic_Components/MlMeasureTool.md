@@ -46,7 +46,7 @@ https://mapcomponents.github.io/react-map-components-maplibre/?path=/docs/mapcom
 <iframe
   id="iframe--core-maplibremap--style-change-config"
   title="Style Change Config"
-  src="https://mapcomponents.github.io/react-map-components-maplibre/iframe.html?viewMode=story&amp;id=mapcomponents-mlmeasuretool--measure-line"
+  src="https://mapcomponents.github.io/react-map-components-maplibre/iframe.html?viewMode=story&amp;id=mapcomponents-mlmeasuretool--measure-polygon"
   allowfullscreen=""
   loading="lazy"
   style={{ width: "100%", height: "500px", border: "0px none" }}

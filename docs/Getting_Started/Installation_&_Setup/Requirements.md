@@ -4,4 +4,6 @@ sidebar_position: 2
 
 # Requirements
 
-1. **node:** 18.0.0 || >=20.0.0
+**node.js** 18.0.0 || >=20.0.0
+
+**npm** >= 6 || **yarn**

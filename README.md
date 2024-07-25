@@ -1,5 +1,4 @@
-# MapComponents developer handbook
-
+# MapComponents Developer Handbook
 
 # Original Docusaurus 2 README
 

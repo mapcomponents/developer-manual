@@ -22,7 +22,7 @@ Visit the storybook for a [complete list of properties & documentation](https://
 
 - **Attribution Handling:** It handles attributions for each layer, aggregating them based on visibility and layer properties.
 
-## Basic Usage
+### Basic Usage
 
 ```jsx
 <MlWmsLoader
@@ -42,7 +42,7 @@ Visit the storybook for a [complete list of properties & documentation](https://
 
 https://mapcomponents.github.io/react-map-components-maplibre/?path=/docs/mapcomponents-mlwmsloader--example-config
 
-## Links
+### Links
 
 - storybook: https://mapcomponents.github.io/react-map-components-maplibre/?path=/docs/mapcomponents-mlwmsloader--example-config
 - Wikipedia: https://en.wikipedia.org/wiki/Web_Map_Service
