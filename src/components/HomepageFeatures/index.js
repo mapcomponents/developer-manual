@@ -19,15 +19,15 @@ const BulletList = [
 
     links: [
       {
-        href: "/docs/Getting_Started/Introduction",
+        href: "./docs/Getting_Started/Introduction",
         text: "Introduction",
       },
       {
-        href: "/docs/Getting_Started/Installation_&_Setup",
+        href: "./docs/Getting_Started/Installation_&_Setup",
         text: "Installation & Setup",
       },
       {
-        href: "/docs/Getting_Started/Quick_Start_Guide",
+        href: "./docs/Getting_Started/Quick_Start_Guide",
         text: "Quick Start Guide",
       },
     ],
@@ -36,21 +36,21 @@ const BulletList = [
     title: "Components",
     icon: <GridViewIcon />,
     links: [
-      { href: "/docs/Components/Basic_Components", text: "Basic Components" },
-      { href: "/docs/Components/Layer_Components", text: "Layer Components" },
-      { href: "/docs/Components/UI-Components", text: "UI-Components" },
-      { href: "/docs/Components/Hooks", text: "Hooks" },
-      { href: "/docs/Components/Contexts", text: "Contexts" },
+      { href: "./docs/Components/Basic_Components", text: "Basic Components" },
+      { href: "./docs/Components/Layer_Components", text: "Layer Components" },
+      { href: "./docs/Components/UI-Components", text: "UI-Components" },
+      { href: "./docs/Components/Hooks", text: "Hooks" },
+      { href: "./docs/Components/Contexts", text: "Contexts" },
     ],
   },
   {
     title: "Advanced Topics",
     icon: <SettingsApplicationsIcon />,
     links: [
-      { href: "/docs/Advanced_Topics/Configuration", text: "Configuration" },
-      { href: "/docs/Advanced_Topics/Architecture", text: "Architecture" },
+      { href: "./docs/Advanced_Topics/Configuration", text: "Configuration" },
+      { href: "./docs/Advanced_Topics/Architecture", text: "Architecture" },
       {
-        href: "/docs/Advanced_Topics/Data_Integration",
+        href: "./docs/Advanced_Topics/Data_Integration",
         text: "Data Integration",
       },
     ],
@@ -60,7 +60,7 @@ const BulletList = [
     icon: <MapIcon />,
     links: [
       {
-        href: "/docs/Examples/Progressive_Web_App",
+        href: "./docs/Examples/Progressive_Web_App",
         text: "Progressive Web App",
       },
     ],
@@ -68,25 +68,25 @@ const BulletList = [
   {
     title: "FAQ",
     icon: <QuizIcon />,
-    links: [{ href: "/docs/FAQ/Common_questions", text: "Common questions" }],
+    links: [{ href: "./docs/FAQ/Common_questions", text: "Common questions" }],
   },
   {
     title: "Contributing",
     icon: <GitHubIcon />,
-    links: [{ href: "/docs/Contributing/", text: "Contributing" }],
+    links: [{ href: "./docs/Contributing/", text: "Contributing" }],
   },
   {
     title: "Changelog & Updates",
     icon: <LibraryBooksIcon />,
     links: [
-      { href: "/docs/Changelog_&_Updates/", text: "Changelog & Updates" },
+      { href: "./docs/Changelog_&_Updates/", text: "Changelog & Updates" },
     ],
   },
   {
     title: "Support & Community",
     icon: <PeopleIcon />,
     links: [
-      { href: "/docs/Support_&_Community/", text: "Support & Community" },
+      { href: "./docs/Support_&_Community/", text: "Support & Community" },
     ],
   },
   // {
