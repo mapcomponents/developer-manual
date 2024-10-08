@@ -14,7 +14,7 @@ First bootstrap the react app using the MapComponent template. The template is b
 npx degit mapcomponents/template my-mc-app
 ```
 
-<img src="/img/start_new_project_1.gif" width="500" />
+<img src={require('/img/start_new_project_1.gif').default} width="500" />
 
 ### 2. Install the dependencies via yarn
 
@@ -25,7 +25,7 @@ cd my-mc-app
 yarn
 ```
 
-<img src="/img/start_new_project_2.gif" width="500" />
+<img src={require('/img/start_new_project_2.gif').default} width="500" />
 
 ### 3. Start developing
 
@@ -36,10 +36,10 @@ cd my-mc-app
 yarn dev
 ```
 
-<img src="/img/start_new_project_3.gif" width="500" />
+<img src={require("/img/start_new_project_3.gif").default} width="500" />
 
 Open http://localhost:5173 in your browser to run the current code state with hot-reloading.
 
-<img src="/img/start_new_project_4.gif" width="500" />
+<img src={require("/img/start_new_project_4.gif").default} width="500" />
 
 <!--@abc: browse({"url":"http://localhost:5173", "service_command":"cd my-mc-app && yarn dev"}) -->

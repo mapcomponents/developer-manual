@@ -70,4 +70,4 @@ When starting a project using the template, the base map is created by initializ
 
 7. **Import and Use the New Component**: `import Layers from "./components/Layers"` in `src/App.tsx` and render it within the application's JSX.
 
-<img src="/img/quick_start_vectortile_map.png" width="1000" />
+<img src={require("/img/quick_start_vectortile_map.png").default} width="1000" />

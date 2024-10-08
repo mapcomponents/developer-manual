@@ -25,4 +25,4 @@ yarn
 yarn dev
 ```
 
-<img src="/img/init_app_template.png" width="1000" />
+<img src={require("/img/init_app_template.png").default} width="1000" />
